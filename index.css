@@ -1,0 +1,45 @@
+body {
+    background-color: brown;
+    color: azure;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+ul{
+    list-style-type: none;
+
+}
+
+footer {
+    background-color: blue;
+    text-align:right;
+    color:black;
+}
+#about .intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+#about p{
+    max-width: 600px;
+}
+img{
+    widith: 390px;
+    height: 450px;
+}
+table{
+    width: 100%;
+    border: 1px solid black;
+    margin: 20px;
+    border-collapse: collapse;
+}
+td,th{
+    padding: 10px;
+    text-align: left;
+    border: 1px solid black;
+}
+th{
+    background-color: black;
+}
+form{nav-right}

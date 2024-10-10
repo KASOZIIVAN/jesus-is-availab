@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.container {
+    width: 400px;
+    margin: 30px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.box {
+    padding: 20px;
+    margin: 15px 0;
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+}
+
+.relative {
+    position: relative;
+    top: 30px;  /* Moves Box 2 down by 20px */
+    left: 20px; /* Moves Box 2 right by 10px */
+    background-color: #28A745; /* Different color for distinction
+    Log in
+
+Sign up
+You said:
+position relative code
+ChatGPT said:
+ChatGPT
+Using position: relative; in CSS allows you to position an element relative to its normal position in the document flow. Here’s a simple example to illustrate how it works:
+
+HTML
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Position Relative Example</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box relative">Box 2 (Relative)</div>
+        <div class="box">Box 3</div>
+    </div>
+</body>
+</html>
+CSS (styles.css)
+css
+Copy code
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.box {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+}
+
+.relative {
+    position: relative;
+    top: 20px;  /* Moves Box 2 down by 20px */
+    left: 10px; /* Moves Box 2 right by 10px */
+    background-color: #28A745; /* Different color for distinction
